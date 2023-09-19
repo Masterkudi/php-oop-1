@@ -26,7 +26,15 @@ $movie3 = new Movie();
     $movie3->country = 'NZ/USA';
     $movie3->poster = 'https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg';
 
-    var_dump($movie1, $movie2, $movie3);
+$movie4 = new Movie();
+
+    $movie4->title = 'Lord of War';
+    $movie4->year = '2005';
+    $movie4->imdbID = 'tt0399295';
+    $movie4->country = 'movie';
+    $movie4->poster = 'https://m.media-amazon.com/images/M/MV5BMTYzZWE3MDAtZjZkMi00MzhlLTlhZDUtNmI2Zjg3OWVlZWI0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg';
+
+    var_dump($movie1, $movie2, $movie3, $movie4);
 
 ?>
 
